@@ -1,0 +1,38 @@
+body {
+    font-family: 'Dongle', sans-serif;
+    background-color: #EAF2EF;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+p, ul{
+    font-size:x-large;
+}
+.nav-bar {
+    background: #233758;
+    color: white;
+    text-align: center;
+}
+.nav-bar-link {
+    font-size: 35px;
+    padding: 20px;
+}
+.footer {
+    padding: 5px ;
+    background: #233758;
+    color: white;
+    text-align: center;
+}
+.w3-image {
+    border: solid 5px #A72534;
+}
+.yelp {
+    border: solid 5px #A72534;
+    margin: 10px;
+    display: block;
+    
+}
+.link {
+    text-decoration: underline;
+}

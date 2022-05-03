@@ -1,0 +1,95 @@
+body {
+    font-family: 'Dongle', sans-serif;
+    background-color: #EAF2EF;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+p{
+    font-size:x-large;
+}
+.nav-bar {
+    background: #233758;
+    color: white;
+    text-align: center;
+}
+.nav-bar-link {
+    font-size: 35px;
+    padding: 20px;
+}
+.link {
+    text-decoration: underline;
+}
+.footer {
+    padding: 5px ;
+    background: #233758;
+    color: white;
+    text-align: center;
+}
+.w3-image {
+    border: solid 5px #A72534;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+ .next {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+left: 50%;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.text {
+    color: #363338;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #363338;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.mySlides {
+    display: none;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}

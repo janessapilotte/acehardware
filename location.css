@@ -1,0 +1,39 @@
+body {
+    font-family: 'Dongle', sans-serif;
+    background-color: #EAF2EF;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+p, ul{
+    font-size:x-large;
+}
+li {
+    font-size: x-large;
+    padding: large;
+}
+.nav-bar {
+    background: #233758;
+    color: white;
+    text-align: center;
+}
+.nav-bar-link {
+    font-size: 35px;
+    padding: 20px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.footer {
+    padding: 5px ;
+    background: #233758;
+    color: white;
+    text-align: center;
+}
+.w3-image {
+    border: solid 5px #A72534;
+}
+.link {
+    text-decoration: underline;
+}
